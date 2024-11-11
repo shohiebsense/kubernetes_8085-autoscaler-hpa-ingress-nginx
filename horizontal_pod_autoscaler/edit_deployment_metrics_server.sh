@@ -1,0 +1,1 @@
+kubectl edit deployment metrics-server -n kube-system

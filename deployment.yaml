@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: network-traffic-monitor-deployment-8085
+  labels:
+    app: network-traffic-monitor-8085
+spec:
+  replicas: 2  # Number of desired Pods
+  selector:
+    matchLabels:
+      app: network-traffic-monitor-8085
+  template:
+    metadata:
+      labels:
+        app: network-traffic-monitor-8085
+    spec:
+      containers:
+      - name: network-traffic-monitor-8085
+        image: shohiebsense/network-traffic-monitor-8085:latest
+        ports:
+        - containerPort: 8085
+        resources:
+          requests:
+            cpu: 100m
+            memory: 200Mi
+          limits:
+            cpu: 500m
+            memory: 500Mi

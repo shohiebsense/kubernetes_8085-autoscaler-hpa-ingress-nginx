@@ -1,0 +1,1 @@
+docker build -t shohiebsense/network-traffic-monitor-8085:latest .

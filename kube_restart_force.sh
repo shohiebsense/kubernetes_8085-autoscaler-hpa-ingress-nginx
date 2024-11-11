@@ -1,0 +1,1 @@
+kubectl rollout restart deployment network-traffic-monitor-deployment-8085

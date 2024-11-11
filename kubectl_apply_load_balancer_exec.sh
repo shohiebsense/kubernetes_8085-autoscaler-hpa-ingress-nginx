@@ -1,0 +1,1 @@
+kubectl apply -f load_balancer.yaml

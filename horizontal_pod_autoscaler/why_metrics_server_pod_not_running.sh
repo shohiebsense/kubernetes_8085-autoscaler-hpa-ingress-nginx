@@ -1,0 +1,1 @@
+kubectl logs -n kube-system deployment/metrics-server
