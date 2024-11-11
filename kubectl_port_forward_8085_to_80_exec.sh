@@ -1,1 +1,0 @@
-kubectl port-forward svc/network-traffic-monitor-service-load-balancer-8085 8085:80

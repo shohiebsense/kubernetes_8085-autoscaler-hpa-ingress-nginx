@@ -1,0 +1,3 @@
+kubectl port-forward svc/network-traffic-monitor-service-load-balancer-8085 8085:80
+
+# no need to do this, handled by load_balancer yaml (ClusterIP)
