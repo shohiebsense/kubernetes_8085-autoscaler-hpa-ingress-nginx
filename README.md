@@ -1,0 +1,1 @@
+[https://shohiebsense.github.io/Utilizing-High-Availability-Scalability-High-Performance-using-Kubernetes-Ingress-Nginx-and-HPA/](https://shohiebsense.github.io/Utilizing-High-Availability-Scalability-High-Performance-using-Kubernetes-Ingress-Nginx-and-HPA/)
